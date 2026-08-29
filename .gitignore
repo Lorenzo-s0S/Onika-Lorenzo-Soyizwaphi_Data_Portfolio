@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+# Environment/secrets
+.env
+.env.*
+*.key
+secrets.json
+config/secrets.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Dotfiles you don't want tracked (be specific rather than blanket-ignoring all dotfiles)
+.env
+.DS_Store
+
+#Database related files(properly update later) 
+.db
+.sqlite
+.xls
+.csv
